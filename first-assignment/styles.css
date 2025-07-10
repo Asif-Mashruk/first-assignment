@@ -141,17 +141,52 @@
 .review-section{
     width: 1140px;
     height: 350px;
-    margin: 20px;
+    margin-left: 75px;
     padding: 20px;
 }
 .reviews{
-    width: 400px;
-    height: 250px;
+    width: 350px;
+    height: 200px;
     background-color:whitesmoke;
-    margin: 75px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
     padding: 20px;
 }
 .reviewer{
     display: flex;
     gap: 10px;
+}
+/* focus section design */
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-description{
+    font-size: 16px;
+    color: #000000;
+    margin: 10px;
+}
+.focus-img{
+    width: 500px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    
+}
+.focus-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: honeydew;
+    width: 1140px;
+    height: 500px;
+}
+.focus-btn{
+    width: 200px;
 }
