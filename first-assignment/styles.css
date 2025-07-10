@@ -1,0 +1,47 @@
+*{
+    max-width: 1440px;
+}
+/* banner design */
+.banner-logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: 600;
+    ;
+}
+.banner-btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 130px;
+    height: 50px;
+}
+.banner-theme{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-left: 50px;
+    padding: 20px;
+}
+.banner-sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    width: 1200px;
+    height: 150px;
+}
+.banner-last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    height: 350px;
+}
+.header{
+    background-image: url(Assets/Hero-bg.png);
+    width: 100%;
+}
