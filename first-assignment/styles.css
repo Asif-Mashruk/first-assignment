@@ -1,6 +1,11 @@
 *{
     max-width: 1440px;
 }
+* button:hover{
+    background-color:burlywood;
+    cursor: pointer;
+
+}
 /* banner design */
 .banner-logo{
     font-size: 34px;
@@ -177,10 +182,10 @@
 }
 .focus-section{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 75px;
     margin-top: 30px;
     padding: 20px;
     background-color: honeydew;
@@ -189,4 +194,38 @@
 }
 .focus-btn{
     width: 200px;
+}
+/* form section design */
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+    width: 1140px;
+    height: 350px;
+    margin-left: 50px;
+}
+.form-main{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.form-text h1{
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+}
+.form-btn{
+    width:100%;
 }
