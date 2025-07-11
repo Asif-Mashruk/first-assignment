@@ -229,3 +229,34 @@ form{
 .form-btn{
     width:100%;
 }
+/* footer design */
+.footer-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.footer-text{
+    font-size: 20px;
+    color: #8987A1;
+}
+.footer-list li{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    gap: 40px;
+    margin: 20px;
+    color: #8987A1;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #8987A1;
+    
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
